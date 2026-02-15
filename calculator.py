@@ -5,7 +5,7 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    return a * b
+    return a + b  # BUG: 这里写错了！
 
 def divide(a, b):
     if b == 0:
